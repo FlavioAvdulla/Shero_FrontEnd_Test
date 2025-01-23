@@ -11,6 +11,15 @@ export default {
 		  primary: {
 			DEFAULT: '#074FA5'
 		  },
+		  screens: {
+			'xsm': '480px',   // Custom extra-small screens
+			'sm': '640px',    // Small screens
+			'md': '768px',    // Medium screens
+			'lg': '1024px',   // Large screens
+			'xl': '1280px',   // Extra-large screens
+			'2xl': '1536px',  // 2XL screens
+			// You can add more custom screen sizes here if needed
+		},
 		  background: 'hsl(var(--background))',
 		  foreground: 'hsl(var(--foreground))',
 		  card: {
@@ -63,7 +72,7 @@ export default {
 	  }
 	},
 	
-	plugins: [require("tailwindcss-animate")],
+	plugins: [import("tailwindcss-animate")],
 	variants: {
 	  extend: {
 		cursor: ['active'],
