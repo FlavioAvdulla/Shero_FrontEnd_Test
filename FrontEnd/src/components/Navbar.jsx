@@ -4,15 +4,18 @@ import "react";
 import { FaStore } from "react-icons/fa6";
 import { IoSearch } from "react-icons/io5";
 import { BiSolidPurchaseTag } from "react-icons/bi";
+import { FaArrowDown } from "react-icons/fa";
+import { BiSolidCoinStack } from "react-icons/bi";
 
 // Logo
 import Logo from "../assets/images/Your_Logo.svg";
-import { FaArrowDown } from "react-icons/fa";
-import { BiSolidCoinStack } from "react-icons/bi";
 
 const Navbar = () => {
   return (
     <div className="flex flex-col">
+
+      {/* ============================ Navbar-Top =========================== */}
+      
       <div className="flex mx-auto w-[100%] justify-between py-5 px-10">
         <div className="flex gap-5 items-center">
           <div className="flex gap-2 items-center">
@@ -53,6 +56,7 @@ const Navbar = () => {
         </div>
       </div>
 
+{/* ============================ Navbar-Bottom =========================== */}
       <div
         className="flex mx-auto w-[100%] font-normal justify-between py-5 px-10 items-center bg-slate-100
                       max-md:py-3

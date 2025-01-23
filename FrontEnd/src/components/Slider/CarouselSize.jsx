@@ -1,3 +1,4 @@
+// Import necessary components and hooks from React and your UI library
 import { useState } from "react";
 import { Card, CardContent } from "@/components/ui/card";
 import {
@@ -9,6 +10,7 @@ import {
 } from "@/components/ui/carousel";
 import { sliderData } from "../Slider/SliderData";
 
+// Function to update the cursor (grab-grabbing) when clicking.
 export function CarouselSize() {
   const [isGrabbing, setIsGrabbing] = useState(false);
 
