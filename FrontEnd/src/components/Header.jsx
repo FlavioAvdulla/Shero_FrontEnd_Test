@@ -30,7 +30,7 @@ const Header = () => {
             className=" py-3 px-10 w-[200px]  border-solid text-white border-2
                                bg-primary ease-in-out duration-300 border-primary hover:bg-transparent
                               hover:border-2 hover:text-primary hover:scale-[105%]
-                              max-md:text-[12px] max-md:px-10 max-md:w-[auto]
+                              max-md:text-[12px] max-md:px-7 max-md:w-[auto] max-md:py-2
             "
           >
             LEARN MORE
