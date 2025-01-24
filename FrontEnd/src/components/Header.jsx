@@ -5,7 +5,7 @@ import header_01 from "../assets/images/header_01.jpg";
 
 const Header = () => {
   return (
-    <div className="flex w-full mb-[100px] justify-center items-center">
+    <div className="flex w-full my-[175px] justify-center items-center ">
       <img className="w-full" src={header_01} alt="" />
       <div
         className=" flex flex-col right-0 absolute w-auto gap-10 my-auto mr-20

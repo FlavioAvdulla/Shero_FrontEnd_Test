@@ -12,11 +12,11 @@ import Logo from "../assets/images/Your_Logo.svg";
 
 const Navbar = () => {
   return (
-    <div className="flex flex-col">
+    <div className="flex flex-col fixed w-full z-10">
 
       {/* ============================ Navbar-Top =========================== */}
       
-      <div className="flex mx-auto w-[100%] justify-between py-5 px-10">
+      <div className="flex mx-auto w-[100%] justify-between py-5 px-10 bg-white">
         <div className="flex gap-5 items-center">
           <div className="flex gap-2 items-center">
             <i className="text-primary text-[19px]">
@@ -58,7 +58,7 @@ const Navbar = () => {
 
 {/* ============================ Navbar-Bottom =========================== */}
       <div
-        className="flex mx-auto w-[100%] font-normal justify-between py-5 px-10 items-center bg-slate-100
+        className="flex mx-auto w-[100%] font-normal justify-between py-5 px-10 items-center bg-slate-100 bg-opacity-40 backdrop-blur-[15px]
                       max-md:py-3
       
       "

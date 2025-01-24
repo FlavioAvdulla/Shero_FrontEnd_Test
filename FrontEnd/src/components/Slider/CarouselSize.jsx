@@ -47,17 +47,17 @@ export function CarouselSize() {
                     <div
                       className="flex flex-col w-[100%] absolute w-full bottom-[-152px] h-auto py-5
                                   cursor-auto items-center justify-center text-center
-                                 bg-black bg-opacity-60 backdrop-blur-[6px] transform 
+                                bg-slate-100 bg-opacity-70 backdrop-blur-[15px] transform 
                                   transition-transform duration-500 ease-in-out group-hover:translate-y-[-150px] sm:group-hover:translate-y-[-152px]"
                     >
-                      <div className="font-medium text-[20px] text-white mb-1
+                      <div className="font-medium text-[20px] text-primary mb-1
                                       
                                       max-xl:text-[18px]
                                       max-md:text-[17px]
                       ">
                         {sliderElement.title}
                       </div>
-                      <div className="w-[80%] text-white font-light text-[15px]
+                      <div className="w-[80%] text-primary font-light text-[15px]
                                       max-xl:text-[13px] max-xl:w-[90%]
                                       max-lg:text-[15px] max-lg:w-[90%]
                                       max-md:w-[90%]
